@@ -392,6 +392,9 @@ h3 {
 // Demo
 .section-demo {
     background: darken(white, 10%);
+    a {
+        border: none;
+    }
     .box {
         width: 23%;
         img {
