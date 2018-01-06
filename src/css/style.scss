@@ -392,6 +392,9 @@ h3 {
 // Demo
 .section-demo {
     background: darken(white, 10%);
+    .font-effect-neon {
+        font-size: $font-size;
+    }
     a {
         border: none;
     }
@@ -411,7 +414,7 @@ h3 {
         }
     }
     .box:first-child {
-        margin-left: 2%;
+        // margin-left: 2%;
     }
     .city-feature {
         margin-bottom: 5px;
@@ -437,40 +440,6 @@ h3 {
             margin: 5px;
             padding: 15px;
         }
-    }
-}
-
-// Testimonials
-.section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/back-customers.jpg');
-    background-size: cover;
-    color: white;
-    background-attachment: fixed;
-    blockquote {
-        padding: 2%;
-        font-style: italic;
-        line-height: 145%;
-        position: relative;
-        margin-top: 20px;
-        cite {
-            font-size: 90%;
-            margin-top: 25px;
-            display: block;
-        }
-        cite img {
-            height: 45px;
-            border-radius: 50%;
-            margin-right: 10px;
-            vertical-align: middle;
-        }
-    }
-    blockquote:before {
-        content: '\201C';
-        font-size: 500%;
-        display: block;
-        position: absolute;
-        top: -5px;
-        left: -5px;
     }
 }
 
@@ -554,6 +523,9 @@ footer {
     background: darken(white, 80%);
     padding: 50px;
     font-size: $font-size*0.8;
+    .font-effect-neon {
+        font-size: $font-size*1.3;
+    }
     ul {
         list-style: none;
         li {

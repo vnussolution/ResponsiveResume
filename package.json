@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack-dev-server",
-    "build:prod": "webpack -p"
+    "build:prod": "webpack -p",
+    "start": ""
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,8 @@
   },
   "dependencies": {
     "jquery": "^3.2.1",
-    "waypoints": "^4.0.1"
+    "waypoints": "^4.0.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.3"
   }
 }

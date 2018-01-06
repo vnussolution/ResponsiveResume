@@ -144,17 +144,17 @@ $(document).ready(function () {
 
 
 
-    setInterval(function () {
-        $('#letter-t').toggleClass('font-effect-neon');
-    }, 4000);
-    setInterval(function () {
-        $('#letter-e').toggleClass('font-effect-neon');
-    }, 4000);
-    setInterval(function () {
-        $('#letter-a').toggleClass('font-effect-neon');
-    }, 4000);
-    setInterval(function () {
-        $('#letter-m').toggleClass('font-effect-neon');
-    }, 4000);
+    // setInterval(function () {
+    //     $('#letter-t').toggleClass('font-effect-neon');
+    // }, 4000);
+    // setInterval(function () {
+    //     $('#letter-e').toggleClass('font-effect-neon');
+    // }, 4000);
+    // setInterval(function () {
+    //     $('#letter-a').toggleClass('font-effect-neon');
+    // }, 4000);
+    // setInterval(function () {
+    //     $('#letter-m').toggleClass('font-effect-neon');
+    // }, 4000);
 
 });
